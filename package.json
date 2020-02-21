@@ -1,0 +1,32 @@
+{
+  "name": "taskmanager",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-google-login": "^5.0.5",
+    "react-scripts": "^3.4.0"
+  },
+  "description": "개발관리\r 테스트\r 테스트2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwac/taskmanager.git"
+  },
+  "keywords": [
+    "hwac"
+  ],
+  "author": "hwac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwac/taskmanager/issues"
+  },
+  "homepage": "https://github.com/hwac/taskmanager#readme"
+}
