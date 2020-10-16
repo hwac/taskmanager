@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+h2 {
+	color: #89867e;
+	text-align: center;
+	font-weight: 300;
+}
+.color {
+	width: 350px;
+	margin: 0 auto;
+}
+.color li {
+	margin: 0 15px 0 0;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 100%;
+}
+.red    {background: #fa5a5a;}
+.yellow {background: #f0d264;}
+.green  {background: #82c8a0;}
+.cyan   {background: #7fccde;}
+.blue   {background: #6698cb;}
+.purple {background: #cb99c5;}
+
+pre {
+	width: 100%;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.72);
+	color: #f8f8f2;
+	border-radius: 0 0 4px 4px;
+	margin-top: 20px;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+pre .bt  {color: #f8f8f2;} /* <> */
+pre .anc {color: #f92672;} /* anchor tag */
+pre .att {color: #a6a926;} /* attribute */
+pre .val {color: #e6db74;} /* value */
+
+.container h2 {
+	padding-top: 30px;
+	font-weight: 300;
+}
+
+
+body {
+	background: #eaedf1;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.left {
+  float: left;
+}
+
+.right{
+  float: right;
+}

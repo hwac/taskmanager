@@ -3,26 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "mobx": "^5.15.4",
-    "mobx-react": "^6.1.8",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-google-login": "^5.0.5",
-    "react-scripts": "^3.4.0"
+    "dotenv": "latest",
+    "mobx": "latest",
+    "mobx-react": "latest",
+    "node-sass": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-google-login": "latest",
+    "react-scripts": "latest"
   },
-  "description": "개발관리\r 테스트\r 테스트2",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "customize-cra": "^0.9.1",
+    "react-app-rewired": "^2.1.5"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hwac/taskmanager.git"
   },
-  "keywords": [
-    "hwac"
-  ],
   "author": "hwac",
   "license": "ISC",
   "bugs": {
